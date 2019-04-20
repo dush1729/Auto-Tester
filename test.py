@@ -15,7 +15,6 @@ for i in range(1, len(sys.argv), 2):
 def runCode(fileType, input, output):
 	file = m[fileType]
 	filename, language = file.split(".")
-	print(run[language].format(file, input, output, filename))
 	os.system(run[language].format(file, input, output, filename))
 
 def getData(filename):
@@ -30,7 +29,7 @@ def getData(filename):
 
 # Execution starts from here
 os.system("touch dummy")
-testcase, t = m["-t"] if "-t" in m else 1, 0
+testcase, t = int(m["-t"]) if "-t" in m else 1, 0
 while t < testcase:
 	runCode("-g", "dummy", "input") # Run generator code
 	runCode("-c", "input", "correct") # Run correct code

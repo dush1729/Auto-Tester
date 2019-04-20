@@ -4,33 +4,25 @@ Script to find testcases where your code is failing
 
 ## How to use(UBUNTU)
 
-1. Changing permissions
-
-chmod +x auto_test.sh
-
-2. Running script
-
 This script requires 4 parameters.
 
-i. Generator code. Code which generates random testcases.
+- `-g` : **Generator code** : Code which generates random testcases.
 
-ii. Correct code. This brute force code which will always give correct results.
+- `-c`: **Correct code.** : Brute force code which will always give correct results but has bad complexity.
 
-iii. Wrong code. This is code with better complexity but is giving wrong answers.
+- `-w`: **Wrong code** - Code with better complexity but is giving wrong answers.
 
-iv. Number of test cases. Enter how many testcases you want to genrate where your correct code and wrong code gives different results.
+- `-t`: **Number of test cases(optional)** : Enter how many testcases you want to genrate where your correct code and wrong code gives different results. It is equal to 1 by default.
 
 ## Output
-Output contains 3*n number of files where n is the number of testcases given in fourth parameter. Ourput file format will be as follows.
+Output contains 3*n number of files where n is the number of testcases given in fourth parameter. Output file format will be as follows.
 
-input_i
+input0, input1, input2, ...
 
-output_i_correct
+correct0, correct1, correct2, ...
 
-output_i_wrong
-
-where i is the testcase number starting from 0.
+wrong0, wrong1, wrong2, ...
 
 ## Screenshot
 
-![alt text](https://i.imgur.com/vBbVocW.png)
+![example screenshot](https://drive.google.com/uc?export=view&id=1G9l1hdyAKgjSjMu5Y5W5DaGAUieV26Fs)
