@@ -1,3 +1,4 @@
+
 # Auto-Tester
 
 Script to find testcases where your code is failing
@@ -13,6 +14,12 @@ This script requires 4 parameters.
 - `-w`: **Wrong code** - Code with better complexity but is giving wrong answers.
 
 - `-t`: **Number of test cases(optional)** : Enter how many testcases you want to genrate where your correct code and wrong code gives different results. It is equal to 1 by default.
+
+Please check the screenshot attached at the bottom for better clarity.
+
+### Languages supported
+
+Currently these languages are supported: `C`, `C++`, `Java` and `Python`. You can use any combinations of these for your three code files(generator, correct and wrong).
 
 ## Output
 Output contains 3*n number of files where n is the number of testcases given in fourth parameter. Output file format will be as follows.
