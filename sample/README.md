@@ -12,4 +12,4 @@ In [generator.cpp](https://github.com/dush1729/Auto-Tester/blob/master/sample/ge
 
 ## Run `test.py` code to get testcases
 
-After we run [test.py](https://github.com/dush1729/Auto-Tester/blob/master/test.py), we will see the testcase for which our incorrect code fails and it will be for `l = 1, r = 6`.
+After we run [test.py](https://github.com/dush1729/Auto-Tester/blob/master/test.py), we will see the testcase for which our incorrect code fails and it will be for `l = 1, r = 3`.
