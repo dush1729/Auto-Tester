@@ -1,6 +1,6 @@
 # Generate prime numbers from range l to r
 
-For the given problem above, we have wriiten code in [wrong.cpp](https://github.com/dush1729/Auto-Tester/blob/master/sample/wrong.cpp) for finding all prime numbers from range l to r having complexity `O(sqrt(n))`. Yet for some testcase it gives wrong testcase. Let's try to find that case.
+For the given problem above, we have wriiten code in [wrong.cpp](https://github.com/dush1729/Auto-Tester/blob/master/sample/wrong.cpp) for finding all prime numbers from range l to r having complexity `O(sqrt(n))`. Yet for some testcase it gives wrong answer. Let's try to find that case.
 
 ## Correct code
 
